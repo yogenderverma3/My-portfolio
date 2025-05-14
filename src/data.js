@@ -1,24 +1,26 @@
 // Importing hero image
-import HeroImage from "/assets/hero-img.webp";
+import HeroImage from "./assets/hero-img.webp";
+import logo from "../public/V.png"
 
 const Image = {
   HeroImage,
+  logo,
 };
 
 export default Image;
 
 // Importing tool icons
-import ToolVSCode from "/assets/tools/vscode.png";
-import ToolReact from "/assets/tools/reactjs.png";
-import ToolNext from "/assets/tools/nextjs.png";
-import ToolTailwind from "/assets/tools/tailwind.png";
-import ToolBootstrap from "/assets/tools/bootstrap.png";
-import ToolJS from "/assets/tools/js.png";
-import ToolNode from "/assets/tools/nodejs.png";
-import ToolGitHub from "/assets/tools/github.png";
-import ToolAI from "/assets/tools/ai.png";
-import ToolCanva from "/assets/tools/canva.png";
-import ToolFigma from "/assets/tools/figma.png";
+import ToolVSCode from "./assets/tools/vscode.png";
+import ToolReact from "./assets/tools/reactjs.png";
+import ToolNext from "./assets/tools/nextjs.png";
+import ToolTailwind from "./assets/tools/tailwind.png";
+import ToolBootstrap from "./assets/tools/bootstrap.png";
+import ToolJS from "./assets/tools/js.png";
+import ToolNode from "./assets/tools/nodejs.png";
+import ToolGitHub from "./assets/tools/github.png";
+import ToolAI from "./assets/tools/ai.png";
+import ToolCanva from "./assets/tools/canva.png";
+import ToolFigma from "./assets/tools/figma.png";
 
 // Tools list
 export const toolList = [
@@ -102,12 +104,12 @@ export const toolList = [
 ];
 
 // Project image imports
-import Project1 from "/assets/proyek/proyek1.webp";
-import Project2 from "/assets/proyek/proyek2.webp";
-import Project3 from "/assets/proyek/proyek3.webp";
-import Project4 from "/assets/proyek/proyek4.webp";
-import Project5 from "/assets/proyek/proyek5.webp";
-import Project6 from "/assets/proyek/proyek6.webp";
+import Project1 from "./assets/proyek/proyek1.webp";
+import Project2 from "./assets/proyek/proyek2.webp";
+import Project3 from "./assets/proyek/proyek3.webp";
+import Project4 from "./assets/proyek/proyek4.webp";
+import Project5 from "./assets/proyek/proyek5.webp";
+import Project6 from "./assets/proyek/proyek6.webp";
 
 // Project list
 export const projectList = [
